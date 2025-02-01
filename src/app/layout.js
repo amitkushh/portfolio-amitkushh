@@ -1,13 +1,13 @@
-import { Inter, Geist, Geist_Mono } from "next/font/google";
+import { Onest, Inter, } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const onest = Onest({
+  variable: "--font-onest",
   subsets: ["latin"],
 });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${geistSans.variable} antialiased`}>
+      <body className={`${onest.variable} ${inter.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -7,17 +7,17 @@
   --foreground: #1a1a1a;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Inter, Geist, Helvetica, sans-serif;
+  font-family: Onest, Inter, Helvetica, sans-serif;
   
 }
 
