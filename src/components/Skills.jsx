@@ -7,22 +7,22 @@ function Skills() {
         Skills <BrainCircuit />
       </h2>
       <div className="flex flex-wrap gap-2">
-        <span className="py-1 px-7 rounded-full bg-[#292929] text-white">
+        <span className="py-1 px-7 rounded-full ">
           Html
         </span>
-        <span className="py-1 px-7 rounded-full bg-[#292929] text-white">
+        <span className="py-1 px-7 rounded-full ">
           CSS
         </span>
-        <span className="py-1 px-7 rounded-full bg-[#292929] text-white">
+        <span className="py-1 px-7 rounded-full ">
           JavaScript
         </span>
-        <span className="py-1 px-7 rounded-full bg-[#292929] text-white">
+        <span className="py-1 px-7 rounded-full ">
           React Js
         </span>
-        <span className="py-1 px-7 rounded-full bg-[#292929] text-white">
+        <span className="py-1 px-7 rounded-full">
           Tailwind
         </span>
-        <span className="py-1 px-7 rounded-full bg-[#292929] text-white">
+        <span className="py-1 px-7 rounded-full">
           Git/GitHub
         </span>
       </div>
