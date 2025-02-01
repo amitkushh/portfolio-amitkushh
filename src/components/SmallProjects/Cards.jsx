@@ -49,7 +49,7 @@ function Cards() {
     <div className="grid grid-cols-1 gap-10">
       {Projects.map((project, index) => (
         <div
-          className="flex flex-col gap-4 rounded-xl "
+          className="flex flex-col gap-4 rounded-xl bg-white"
           key={index}
         >
           <div className="flex flex-col">
