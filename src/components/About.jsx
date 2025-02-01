@@ -8,7 +8,7 @@ function About() {
       </h2>
       <p className="text-lg text-primary">
         I am a frontend developer, and currently learning full stack
-        development.
+        development. I like tech a lot. I really enjoy learning new technology.
       </p>
     </div>
   );
