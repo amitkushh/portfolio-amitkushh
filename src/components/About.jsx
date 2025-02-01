@@ -1,0 +1,17 @@
+import { LaptopMinimalCheck } from "lucide-react";
+
+function About() {
+  return (
+    <div className="flext flex-col px-9 pb-5">
+      <h2 className="text-2xl font-semibold mb-3 flex gap-3 items-center">
+        About <LaptopMinimalCheck />
+      </h2>
+      <p className="text-lg">
+        I am a frontend developer, and currently learning full stack
+        development.
+      </p>
+    </div>
+  );
+}
+
+export default About;
