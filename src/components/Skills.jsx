@@ -2,7 +2,7 @@ import { BrainCircuit } from "lucide-react";
 
 function Skills() {
   return (
-    <div className="flext flex-col px-9 py-10 border-b-2">
+    <div className="flext flex-col px-9 py-10 border-b-2 md:px-56 lg:px-72">
       <h2 className="text-2xl font-semibold mb-6 flex gap-3 items-center">
         Skills <BrainCircuit />
       </h2>

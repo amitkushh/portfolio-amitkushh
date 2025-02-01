@@ -4,7 +4,7 @@ import { Linkedin } from "lucide-react";
 
 function Footer() {
   return (
-    <div className="flext flex-col px-9 py-9">
+    <div className="flext flex-col px-9 py-9 md:px-56 lg:px-72">
       <div className="flex items-center gap-4">
         <span>
           <a href="https://github.com/amitkushh">
