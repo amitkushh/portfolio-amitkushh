@@ -49,12 +49,12 @@ function Cards() {
     <div className="grid grid-cols-1 gap-10">
       {Projects.map((project, index) => (
         <div
-          className="flex flex-col gap-4 bg-[#292929] rounded-xl "
+          className="flex flex-col gap-4 rounded-xl "
           key={index}
         >
           <div className="flex flex-col">
             <div className="mb-6">{project.image}</div>
-            <span className="text-xl font-bold pl-4">{project.title}</span>
+            <span className="text-xl font-bold pl-4 text-primary">{project.title}</span>
           </div>
           <div className="flex justify-between items-center mx-4 pb-4">
             <button className="text-md  bg-gray-900 text-white rounded-md py-1 px-3">

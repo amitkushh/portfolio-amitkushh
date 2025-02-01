@@ -4,7 +4,7 @@
 
 :root {
   --background: #eff8ff;
-  --foreground: #f3f2f2;
+  --foreground: #1a1a1a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,14 +21,3 @@ body {
   
 }
 
-p {
-  color: #1b1418;
-}
-
-span {
-  color: #1b1418;
-}
-
-h1, h2 {
-  color: #1b1418;
-}

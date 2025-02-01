@@ -8,17 +8,17 @@ function Footer() {
       <div className="flex items-center gap-4">
         <span>
           <a href="https://github.com/amitkushh">
-            <Github height={30} width={30} />
+            <Github height={25} width={25} />
           </a>
         </span>
         <span>
           <a href="https://x.com/amitkushh">
-            <Twitter height={30} width={30} />
+            <Twitter height={25} width={25} />
           </a>
         </span>
         <span>
           <a href="https://www.linkedin.com/in/amitkushh/">
-            <Linkedin height={30} width={30} />
+            <Linkedin height={25} width={25} />
           </a>
         </span>
       </div>
