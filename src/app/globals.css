@@ -18,6 +18,20 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Onest, Inter, Helvetica, sans-serif;
-  
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
